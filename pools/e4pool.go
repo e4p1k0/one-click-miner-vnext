@@ -58,5 +58,5 @@ func (p *E4pool) GetFee() float64 {
 }
 
 func (p *E4pool) OpenBrowserPayoutInfo(addr string) {
-	util.OpenBrowser(fmt.Sprintf("https://mcore.e4pool.com/?#vtc/dashboard?address=%s", addr))
+	util.OpenBrowser(fmt.Sprintf("https://e4pool.com/vtc/account/%s", addr))
 }
